@@ -1,0 +1,37 @@
+Creating a Complete User and RBAC system from the Template
+==========================================================
+
+All the code from the Advanced Yii2 system which is required for the User System, RBAC and Internationalisation has been copied into the correct locations. [TODO]
+
+YOU MUST DO THE FOLLOWING, IN THIS ORDER, ***BEFORE*** RUNNING YOUR PROJECT.
+
+	1. Copy this complete folder, including all subdirectories etc., to a new, web accessible location and rename it to your project name.
+
+	2. Open Netbeans or similar and create a "New PHP Project from existing sources".
+
+	3. Open "config/db.php" and set your Database Name, Username and Password.
+
+	4. Open "config/params.php" and set your email addresses.
+
+	5. Open "config/web.php" and create a new 'cookieValidationKey' - THIS IS EXTREMELY IMPORTANT.
+    Then check that the folder names in web.php suit your system.
+		NOTE: web.php has been adapted for User System, RBAC and Internationalisation so only change the settings if you want non-standard locations, languages etc. If you don't want to use CDN comment out the CDN sections.
+
+	6. Create a new Database for your project. You should use the following for the database AND the tables if using MySQL:
+		CHARACTER SET utf8
+		COLLATE utf8_unicode_ci
+		ENGINE=InnoDB
+		
+	7. To create the User Table from the command line, in the project directory run:
+		yii migrate user_table
+		
+		Note: the Migrate System is set to use MySQL. If you want to create the tables in a different database engine modify and use the SQL files in the SQL directory [TODO - create the SQL files].
+
+
+		[TODO - SET UP RBAC]
+		
+		
+		
+	FINALLY
+
+	When your project goes live remember to change from a DEVELOPMENT/DEV to a PRODUCTION environment.
