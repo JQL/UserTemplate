@@ -14,7 +14,7 @@ YOU MUST DO THE FOLLOWING, IN THIS ORDER, ***BEFORE*** RUNNING YOUR PROJECT.
 	4. Open "config/params.php" and set your email addresses.
 
 	5. Open "config/web.php" and create a new 'cookieValidationKey' - THIS IS EXTREMELY IMPORTANT.
-    Then check that the folder names in web.php suit your system.
+		Then check that the folder names in web.php suit your system.
 		NOTE: web.php has been adapted for User System, RBAC and Internationalisation so only change the settings if you want non-standard locations, languages etc. If you don't want to use CDN comment out the CDN sections.
 
 	6. Create a new Database for your project. You should use the following for the database AND the tables if using MySQL:
