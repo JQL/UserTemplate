@@ -25,3 +25,9 @@ composer.phar
 phpunit.phar
 # local phpunit config
 /phpunit.xml
+
+# JQL Files
+.jql
+
+# DB.php
+/config/db.php
