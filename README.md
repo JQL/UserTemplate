@@ -1,3 +1,9 @@
+User Template System for Yii2
+=============================
+
+Read the instructions.txt for Installation information
+
+
 Yii 2 Basic Application Template
 ================================
 
