@@ -9,7 +9,7 @@ Database settings MySQL:
         'dsn' => 'mysql:host=localhost;dbname=DATABASE_NAME',
         // Change username & password as required
         'username' => 'root',
-        'password' => '2504',
+        'password' => '1234',
         'charset' => 'utf8',
     ];
 
